@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+ul {
+    list-style: none;
+}
+
+.header_main {
+    margin-top: 20px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.banner {
+    margin-top: 20px;
+    height: 400px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.best_seller {
+    margin-top: 20px;
+    height: 400px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.service {
+    margin-top: 20px;
+    height: 1200px;
+    background-color: white;
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
