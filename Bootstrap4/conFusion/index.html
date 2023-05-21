@@ -55,12 +55,21 @@
                     <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our
                         lipsmacking creations will tickle your culinary senses!</p>
                 </div>
-                <div class="col-12 col-sm">
-                    <!-- ex12 start-->
+                <!-- <div class="col-12 col-sm">
                     <div class="col-12 col-sm align-self-center">
                         <img src="img/logo.png" class="img-fluid">
                     </div>
-                    <!-- ex12 end -->
+                </div> -->
+                <!--  -->
+                <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm align-self-center">
+                        <img src="img/logo.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-12 col-sm-3">
+                    <div class="col-12 col-sm align-self-center">
+                        <a href="#form" class="btn-sm btn-warning">Reserve Table</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -86,7 +95,7 @@
             </div>
         </div>
 
-        <div class="row row-content d-flex flex-row-reverse">
+        <div class="row row-content d-flex">
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -95,7 +104,7 @@
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/buffet.png" alt="Uthappizza">
                     <div class="media-body">
                         <span class="badge badge-pill badge-secondary"></span>
-                        <h2 class="mt-0">Weekend Grand Buffet<span class="badge badge-danger"></span></h2>
+                        <h2 class="mt-0">Weekend Grand Buffet <span class="badge badge-danger">New</span></h2>
                         <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and
                             Italian pizza, topped with Cerignola olives, ripe vine
                             cherry tomatoes, Vidalia onion, Guntur chillies and
@@ -109,12 +118,6 @@
                 <h3>Meet our Culinary Specialists</h3>
             </div>
             <div class="col col-sm col-md">
-                <!-- <h2>Alberto Somayya</h2>
-                <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with
-                    whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion
-                    experiences. </p> -->
-                <!-- ex 12  -->
                 <div class="media">
                     <img class="d-flex mr-3 img-thumbnail align-self-center" src="img/alberto.png"
                         alt="Alberto Somayya">
@@ -133,7 +136,52 @@
             </div>
         </div>
     </div>
+    <!--  -->
+    <div class="form row row-content d-flex justify-content-center">
+        <div class="head-form col-12 bg-warning">
+            <h3 class="text-light">Send us your Feedback</h3>
+        </div>
+        <div class="col-12 col-md-9">
+            <!-- Form goes here -->
+            <form id="form">
+                <div class="form-group row">
+                    <label for="firstname" class="col-md-2 col-form-label">Number of Guests</label>
+                    <div class="col-md-10">
+                        <input type="radio" name="ratio-group"> <label for="">1</label>
+                        <input type="radio" name="ratio-group"> <label for="">2</label>
+                        <input type="radio" name="ratio-group"> <label for="">3</label>
+                        <input type="radio" name="ratio-group"> <label for="">4</label>
+                        <input type="radio" name="ratio-group"> <label for="">5</label>
+                        <input type="radio" name="ratio-group"> <label for="">6</label>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="form-group row">
+                    <label for="date-time" class="col-12 col-md-2 col-form-label">Date and Time</label>
+                    <div class="col-6 col-md-5">
+                        <input type="tel" class="form-control" id="areacode" name="areacode" placeholder="Date">
+                    </div>
+                    <div class="col-6 col-md-5">
+                        <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Time">
+                    </div>
+                </div>
+                <!--  -->
+                <div class="form-group row">
+                    <div class="offset-md-2 col-md-10">
+                        <button type="submit" class="btn btn-primary">Reserve</button>
+                    </div>
+                </div>
+                <!--  -->
+            </form>
+            <!--  -->
 
+            <!--  -->
+
+        </div>
+        <div class="col-12 col-md">
+        </div>
+    </div>
+    <!--  -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -180,6 +228,8 @@
                 </div>
             </div>
         </div>
+
+
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

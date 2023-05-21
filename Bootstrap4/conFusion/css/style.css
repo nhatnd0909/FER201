@@ -37,3 +37,25 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
+
+.form {
+    width: 52%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form .col-12 h3 {
+    margin-top: 20px;
+}
+
+.form-group .col-md-10 {
+    padding-top: 7px;
+
+}
+
+.form-group .col-6 {
+    padding-top: 7px;
+}
