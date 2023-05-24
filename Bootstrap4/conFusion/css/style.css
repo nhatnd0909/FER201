@@ -59,3 +59,11 @@ body {
 .form-group .col-6 {
     padding-top: 7px;
 }
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
